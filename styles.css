@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    height: 100%;
+}
+
+#container1 {
+    display: flex;
+    background-image: url(../sign-up-form/wolfgang-hasselmann-CY6MLcLvdX0-unsplash.jpg);
+    background-size: cover;
+    background-color: green;
+    width: 30%;
+    height: 100%;
+}
+
+#container2 {
+    display: flex;
+}
