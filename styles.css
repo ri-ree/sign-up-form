@@ -1,22 +1,19 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
 html, body {
     display: flex;
-    height: 100%;
-    width: 100%;
-    margin-top: 0px;
-    margin-left: 0px;
+    height: 100vh;
 }
 
 .main-container {
     display: flex;
-    height: 100%;
-    width: 100%;
-    margin-top: 0px;
-    margin-left: 0px;
+    flex: 1;
 }
 .container {
     display: flex;
-    margin-top: 0px;
-    margin-left: 0px;
 }
 
 #container1 {
@@ -25,15 +22,14 @@ html, body {
     background-size: cover;
     background-color: green;
     flex-direction: column;
-    height: 100%;
-    width: 30%;
+    height: 100vh;
+    width: 500px;
 }
 
 #container2 {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 70%;
+    height: 100vh;
 }
 
 .section {
@@ -41,6 +37,6 @@ html, body {
     height: 200px;
 }
 
-
 .form-section {
+    flex: 1;
 }
