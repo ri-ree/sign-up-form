@@ -59,6 +59,7 @@ input {
 
 button {
     margin-top: 20px;
+    margin-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 15px;
@@ -67,5 +68,10 @@ button {
     border: none;
     background-color: darkolivegreen;
     color: aliceblue;
+    font-weight: 700;
+}
+
+.section > button + div > span {
+    color: darkolivegreen;
     font-weight: 700;
 }
