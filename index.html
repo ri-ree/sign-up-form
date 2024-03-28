@@ -16,26 +16,36 @@
                     <form>
                         <h2>Sign Up Form</h2>
 
-                        <p>
-                            <label for="first-name">FIRST NAME</label>
-                            <input type="text" name="first-name" id="first-name" />
-                            <label for="last-name">LAST NAME</label>
-                            <input type="text" name="last-name" id="last-name" />
-                        </p>
-
-                        <p>
-                            <label for="mail">EMAIL</label>
-                            <input type="email" name="mail" id="mail" />
-                            <label for="num">PHONE NUMBER</label>
-                            <input type="number" name="num" id="num" />
-                        </p>
-
-                        <p>
-                            <label for="pwd">PASSWORD</label>
-                            <input type="password" name="pwd" id="pwd" />
-                            <label for="confirmpwd">CONFIRM PASSWORD</label>
-                            <input type="password" name="confirmpwd" id="confirmpwd" />
-                        </p>
+                        <div class="form-container">
+                        <div class="first-column">
+                            <div>
+                                <label for="first-name">FIRST NAME</label>
+                                <input type="text" name="first-name" id="first-name" />
+                            </div>
+                            <div>
+                                <label for="mail">EMAIL</label>
+                                <input type="email" name="mail" id="mail" />
+                            </div>
+                            <div>
+                                <label for="pwd">PASSWORD</label>
+                                <input type="password" name="pwd" id="pwd" />
+                            </div>
+                        </div>
+                        <div class="second-column">
+                            <div>
+                                <label for="last-name" class="second-column">LAST NAME</label>
+                                <input type="text" name="last-name" id="last-name" />
+                            </div>
+                            <div>
+                                <label for="num" class="second-column">PHONE NUMBER</label>
+                                <input type="number" name="num" id="num" />
+                            </div>
+                            <div>
+                                <label for="confirmpwd" class="second-column">CONFIRM PASSWORD</label>
+                                <input type="password" name="confirmpwd" id="confirmpwd" />
+                            </div>
+                        </div>
+                    </div>
 
                     </form>
                 </div>
