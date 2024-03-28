@@ -75,3 +75,18 @@ button {
     color: darkolivegreen;
     font-weight: 700;
 }
+
+.section-text {
+    font-size: large;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-right: 200px;
+}
+
+.section-text > p {
+    margin-top: 10px;
+}
+
+label {
+    font-weight: 500;
+}
