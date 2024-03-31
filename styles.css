@@ -5,12 +5,13 @@
 
 html, body {
     display: flex;
-    height: 100vh;
 }
 
 .main-container {
     display: flex;
     flex: 1;
+    min-height: 100vh;
+    min-width: 100vh;
 }
 .container {
     display: flex;
@@ -20,10 +21,13 @@ html, body {
     display: flex;
     background-image: url(../sign-up-form/wolfgang-hasselmann-CY6MLcLvdX0-unsplash.jpg);
     background-size: cover;
-    background-color: green;
+    background-color: darkolivegreen;
     flex-direction: column;
     height: 100vh;
     min-width: 500px;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
 }
 
 #container2 {
@@ -37,6 +41,7 @@ html, body {
     height: 200px;
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 20px;
 }
 
 .form-section {
@@ -59,11 +64,10 @@ input {
 }
 
 button {
-    margin-top: 20px;
     margin-bottom: 20px;
+    padding-top: 15px;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 10px;
     border: none;
@@ -80,8 +84,6 @@ button {
 div#container2 > div:first-child {
     font-size: large;
     font-weight: 700;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 div#container2 > div:first-child > p {
@@ -90,4 +92,8 @@ div#container2 > div:first-child > p {
 
 label {
     font-weight: 500;
+}
+
+a {
+    color: white;
 }
