@@ -36,6 +36,7 @@ html, body {
     background-color: bisque;
     height: 200px;
     padding-left: 40px;
+    padding-right: 40px;
 }
 
 .form-section {
@@ -76,14 +77,14 @@ button {
     font-weight: 700;
 }
 
-.section-text {
+div#container2 > div:first-child {
     font-size: large;
     font-weight: 700;
     padding-top: 50px;
-    padding-right: 200px;
+    padding-bottom: 50px;
 }
 
-.section-text > p {
+div#container2 > div:first-child > p {
     margin-top: 10px;
 }
 
