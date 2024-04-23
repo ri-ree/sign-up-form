@@ -11,7 +11,6 @@
         <div class="container" id="container1">
             <div><img src="../sign-up-form/odin-logo.png" alt="Logo of the Odin Project">COWS</div>
             <footer>Photo by <a href="https://unsplash.com/@wolfgang_hasselmann?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Wolfgang Hasselmann</a> on <a href="https://unsplash.com/photos/white-and-black-cow-CY6MLcLvdX0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></footer>
-        
         </div>
         <div class="container" id="container2">
             <div class="section">
@@ -83,5 +82,28 @@
             </div>
         </div>
     </div>
+    <script>
+        const pwdbox = document.querySelector('#pwd')
+        const confirmpwdbox = document.querySelector('#confirmpwd')
+
+        pwdbox.addEventListener("blur", checkPasswords);
+        confirmpwdbox.addEventListener("blur", checkPasswords);
+
+        function checkPasswords() {
+
+        let pwd = document.querySelector('#pwd').value;
+        let confirmpwd = document.querySelector('#confirmpwd').value;
+
+        if(pwd === confirmpwd) {
+            pwdbox.style.border = "2px solid green";
+            confirmpwdbox.style.border = "2px solid green";
+        } else {
+            pwdbox.style.border = "2px solid red";
+            confirmpwdbox.style.border = "2px solid red";
+        };
+
+    };
+
+    </script>
 </body>
 </html>
